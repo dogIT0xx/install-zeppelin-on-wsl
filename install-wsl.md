@@ -33,6 +33,8 @@
 ```wsl```
 <img src="4.png">
 
+#### Như vậy là thành công rồi nhé
+
 # Cách cài đặt zeppelin trên WSL
 ## Bước 1: Cài đặt Open JDK trên WSL
 ### 1. Mở terminal WSL và chạy dòng lệnh sau để update apt
