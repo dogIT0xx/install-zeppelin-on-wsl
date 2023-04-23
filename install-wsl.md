@@ -7,11 +7,13 @@
 ## Bước 1: Bật tính năng Windows Subsystem for Linux và các tính năng hỗ trợ khác
 ### 1. Vào thanh Search của Windows tìm Turn Windows features on or off
 <img src="./img/1.png">
+
 ### 2.  Tìm vào tick vào 3 ô
     - Virtual Machine Platform
     - Windows Hypervisor Platform
     - Windows Subsystem for Linux
 <img src="./img/2.png">
+
 ### 3. Khởi động lại máy tính
 ## Bước 2: Cài đặt Ubuntu cho WSL
 ### 1. Xem bản phân phối có sẵn cho WSL
