@@ -18,9 +18,11 @@
 ## Bước 2: Cài đặt Ubuntu cho WSL
 ### 1. Xem bản phân phối có sẵn cho WSL
 #### Mở PowerShell gõ
-```WSL --list --online```
+```wsl --list --online```
+<img src="3.png">
+
 ### 2. Cài đặt Ubuntu
-```WSL --install -d Ubuntu-22.04```
+```wsl --install -d Ubuntu-22.04```
 #### Trong đó Ubuntu-22.04 là tên bản phân phối
 #### Đợi quá trình cài đặt hoàn tất
 ### 3. Thiết lập thông tin
@@ -29,6 +31,7 @@
 ### 4. Kiểm tra cài đặt
 #### Mở PowerShell gõ
 ```wsl```
+<img src="4.png">
 
 # Cách cài đặt zeppelin trên WSL
 ## Bước 1: Cài đặt Open JDK trên WSL
@@ -41,7 +44,11 @@
 ```sudo apt-get install openjdk-8-jdk```
 #### Nhập Y nếu được hỏi
 #### Chờ quá trình cài đặt xong
+### 4. Kiểm tra Java đã cài thành công
+```java --version```
+<img src="5.png">
 
+#### Như vậy là thành công rồi nhé
 ## Bước 2: Cài đặt Zeppelin
 ### 1. Mở terminal WSL vầ tải gói zeppelin về WSL
 ```sudo wget https://dlcdn.apache.org/zeppelin/zeppelin-0.8.2/zeppelin-0.8.2-bin-all.tgz```
