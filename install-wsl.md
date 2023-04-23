@@ -1,6 +1,7 @@
 # Thông tin phiên bản mình cài
 #### WSL 1
 #### Ubuntu-22.04
+### Java openjdk-8-jdk
 #### Zeppelin 0.8.2
 
 # Cách cài đặt WSL
@@ -47,7 +48,9 @@
 ```java --version```
 #### output 
 ```openjdk version "1.8.0_275"```
+
 ```OpenJDK Runtime Environment (build 1.8.0_275-8u275-b01-1~deb9u1-b01)```
+
 ```OpenJDK 64-Bit Server VM (build 25.275-b01, mixed mode)```
 #### là cài Java thành công
 
