@@ -1,7 +1,7 @@
 # Thông tin phiên bản mình cài
 #### WSL 1
 #### Ubuntu-22.04
-### Java openjdk-8-jdk
+####  Java openjdk-8-jdk
 #### Zeppelin 0.8.2
 
 # Cách cài đặt WSL
